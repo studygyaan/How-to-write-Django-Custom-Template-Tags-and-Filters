@@ -1,0 +1,23 @@
+{% load custom_tags %}
+<h2>Home Page - Template Tags</h2>
+<hr>
+<h3>Filters</h3>
+<p>Lower Template Tag (converts HaPpY to happy) - {{ 6468 |lower }}</p>
+
+<p>Template Tag myfilter with is_safe=true- {{'They this is <a>anchor</a> tag'|myfilter}}</p>
+
+<p>initial_letter_filter - {{"happy"|initial_letter_filter}}</p>
+
+<hr>
+<h3>Tags</h3>
+<p>current_time - {% current_time "%Y-%m-%d %I:%M %p" %}</p>
+
+<p>minusone - {% minusone 2 %}</p>
+<p>minustwo - {% minustwo 5 %}</p>
+
+<p>Position arg - {% my_tag 123 "abcd" book.title warning="This is warning"|lower profile=1 %}</p>
+
+{% current_time "%Y-%m-%d %I:%M %p" as the_time %}
+<p>The time is {{ the_time }}.</p>
+
+<p>Inclusion Tag - {% show_results %}</p>
