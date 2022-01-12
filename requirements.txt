@@ -36,7 +36,7 @@ padme==1.1.1
 pbr==5.3.1
 pexpect==4.0.1
 Pillow==5.3.0
-pipenv==2018.11.26
+pipenv==2022.1.8
 plainbox==0.25
 protobuf==3.6.1
 ptyprocess==0.5
