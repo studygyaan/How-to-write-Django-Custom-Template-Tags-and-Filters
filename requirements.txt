@@ -35,7 +35,7 @@ onboard==1.2.0
 padme==1.1.1
 pbr==5.3.1
 pexpect==4.0.1
-Pillow==5.3.0
+Pillow==9.0.0
 pipenv==2018.11.26
 plainbox==0.25
 protobuf==3.6.1
