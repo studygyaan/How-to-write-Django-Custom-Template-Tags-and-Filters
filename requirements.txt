@@ -38,7 +38,7 @@ pexpect==4.0.1
 Pillow==5.3.0
 pipenv==2018.11.26
 plainbox==0.25
-protobuf==3.6.1
+protobuf==3.18.3
 ptyprocess==0.5
 pyasn1==0.1.9
 pycups==1.9.73
